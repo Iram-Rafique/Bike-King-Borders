@@ -1,0 +1,53 @@
+.bike-servicing-heading {
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 700;
+  color: #333;
+}
+
+.container {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.price-card {
+  width: 270px;
+  height: 300px;
+  border: 2px solid rgb(149, 149, 149);
+  text-align: center;
+  margin: 6px;
+  padding-top: 50px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.features {
+  list-style: none;
+  text-align: center;
+  padding: 0%;
+}
+button {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  margin: 40px auto;
+  padding: 10px;
+  background-color: rgb(24, 192, 138);
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 1px;
+}
+@media (max-width: 768px) {
+  .container {
+    margin: 10px auto;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .price-card {
+    flex: 1;
+  }
+}
